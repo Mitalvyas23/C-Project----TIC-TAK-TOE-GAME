@@ -1,3 +1,7 @@
+/* WELCOME TO TIC TAC TOE GAME 
+   PROGRAMMER = Mital vyas
+*/
+
 #include<stdio.h>
 #include<conio.h>
 
@@ -86,6 +90,7 @@ void clear()
 void print()
 {
 	clear();
+	printf("\n");
 	printf("    |  %c |  %c |  %c |\n",a[1],a[2],a[3]);
 	printf("____|____|____|____|____\n");
 	printf("    |  %c |  %c |  %c |\n",a[4],a[5],a[6]);
